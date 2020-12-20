@@ -1,5 +1,5 @@
 # FIX Log Viewer
-[![Download](https://img.shields.io/badge/Download-1.0.0-blue.svg)](https://github.com/apptastic-software/fix-log-viewer/releases/latest) 
+[![Download](https://img.shields.io/badge/Download-1.1.0-blue.svg)](https://github.com/apptastic-software/fix-log-viewer/releases/latest) 
 
 FIX Log Viewer is a cross-platform tool for viewing FIX engine logs in a much more readable format. This helps you find, analyze, and fix issues faster.
 
