@@ -8,7 +8,7 @@ Available for Windows, Linux and MacOS.
 ![FIX Log Viewer draw selection](/assets/screenshot1.png)
 
 ## Features
-### Protocols
+### Protocol
 * FIXT 1.1
 * FIX 5.0 SP2
 * FIX 5.0 SP1
@@ -63,5 +63,11 @@ Changes to the security model used in the latest versions of **MacOS 10.14 (Moja
 
 ## Demo
 ![FIX Log Viewer draw selection](/assets/screenshot2.gif)
+
+Keywords: 
+FIX Parser
+FIX Analyser
+FIX Protocol Analyzer
+FIX Protocol Log Reader
 
 [1]: https://github.com/apptastic-software/fix-log-viewer/releases/latest
