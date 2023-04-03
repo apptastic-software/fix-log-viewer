@@ -60,7 +60,7 @@ Changes to the security model used in the latest versions of **MacOS 11 (Big Sur
 
 `sudo xattr -d com.apple.quarantine FIX.Log.Viewer-<version>_<arch>.dmg`
 
-Alternativly download the app from command line with `wget` or `curl` instead of from a web browser. The web browser will flag `.dmg` file as suspicious if it does not have the correct signature. This flag is removed with the above `xattr` command.
+Alternatively download the app from command line with `wget` or `curl` instead of from a web browser. The web browser will flag `.dmg` file as suspicious if it does not have the correct signature. This flag is removed with the above `xattr` command.
 
 I you still see the error message manually remove the app and install it again.
 
