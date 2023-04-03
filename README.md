@@ -56,10 +56,15 @@ Available for Windows, Linux and MacOS.
 Download the installer for Windows, Linux and MacOS from [Releases][1].
 
 ### Note for MacOS users
-Changes to the security model used in the latest versions of **MacOS 10.14 (Mojave)** and **10.15 (Catalina)** mean that the operating system will show an error message ('"FIX Log Viewer" is damaged and can’t be opened. You should move it to the Bin.') when trying to install the application. To work around this, run the following command in a terminal before installing:
+Changes to the security model used in the latest versions of **MacOS 11 (Big Sur)**, **MacOS 12 (Monterey)**, and **MacOS 13 (Ventura)** mean that the operating system will show an error message ('"FIX Log Viewer" is damaged and can’t be opened. You should move it to the Bin.') when trying to start the application. To work around this, run the following command on the downloaded dmg file in a terminal **before** installing:
 
-`sudo xattr -rd com.apple.quarantine /Applications/FIX\ Log\ Viewer.app`
-![MacOS warning](/assets/macos-warning.png)
+`sudo xattr -d com.apple.quarantine FIX.Log.Viewer-<version>_<arch>.dmg`
+
+Alternativly download the app from command line with `wget` or `curl` instead of from a web browser. The web browser will flag `.dmg` file as suspicious if it does not have the correct signature. This flag is removed with the above `xattr` command.
+
+I you still see the error message manually remove the app and install it again.
+
+![MacOS warning](/assets/macos-warning2.png)
 
 ## Demo
 ![FIX Log Viewer draw selection](/assets/screenshot2.gif)
