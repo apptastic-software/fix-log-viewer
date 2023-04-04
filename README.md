@@ -1,7 +1,7 @@
 # FIX Log Viewer
 [![Download](https://img.shields.io/badge/Download-1.1.0-blue.svg)](https://github.com/apptastic-software/fix-log-viewer/releases/latest) 
 
-FIX Log Viewer is a cross-platform tool for viewing FIX engine logs in a much more readable format. This helps you find, analyze, and fix issues faster.
+FIX Log Viewer is a tool for viewing FIX engine logs in a much more readable format. It helps you find, analyze, and fix issues faster.
 
 Available for Windows, Linux and MacOS.
  
@@ -21,6 +21,9 @@ Available for Windows, Linux and MacOS.
 
 ### Reading FIX messages from log file
 * Extracts raw FIX messages from file of any format. It is enough to have non-encoded messages stored in a file
+* Read compressed log files (zip, gz, 7z, bz2, lz4, xz, and lzma)
+* Support for tailing FIX log file and displays FIX messages in realtime
+* Support for reading FIX log file on a remote machine and displays new FIX messages in real-time
 
 ### Searching for data
 * Search for exact phrase ("35=D")
